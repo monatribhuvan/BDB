@@ -1,0 +1,52 @@
+.maindetails{
+    display: flex;
+
+
+    
+}
+.maps{
+    border: 3px solid black;
+}
+.submission{
+    padding: 4rem;
+    border: 3px solid black;
+    height: 400px;
+    width: 600px;
+    margin-left: 5%;
+    background-color: rgb(114, 165, 224); 
+}
+.submission button{
+    height: 3rem;
+    width: 6rem;
+    color: aliceblue;
+    border-color: rgb(237, 245, 245);
+    background-color: rgb(7, 151, 84);
+    font: 1em sans-serif;
+}
+.submission input {
+    padding: 3%;
+    display: block;
+    padding: 2%;
+    width: 400px;
+    margin: 3%;
+    height: 1rem;
+   
+}
+#message{
+    height: 5rem;
+    width: 450px;
+    height: 100px;
+    margin-left: 2%;
+    
+} 
+
+#Products{
+    margin: 0.7rem;
+    width: 250px;
+    padding: 2%;
+     color: black;
+    font-weight: 600;
+  
+    background-color: rgb(66, 194, 134);
+   
+} 

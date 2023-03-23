@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+.sites{
+    display: flex;
+    height: 126px;
+    background-image: url("./images/header.jpg");
+    
+    background-size: cover;
+   
+
+
+}
+.facebook , .twitter , .insta , .linkin  {
+    padding: 2%;
+    margin: 0.5%;
+    
+}
+
+.makeindia img {
+
+padding-top: 45%;
+border-radius: 50%;
+
+}
+
+.lion img{
+   padding-top: 75%;
+    width: 50%;
+   
+}
+
+
+.mainparamain{
+    text-align: center;
+    padding-top: 3%;
+    width: 70%;
+    font-size: xx-large;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(5, 99, 223);
+    
+     
+   
+}
+.mainpara{
+    text-align: center;
+    padding: 5% 5% 2% 5%;
+   
+    font-size: x-large;
+}
+
+.Homepage{
+    background-image: url("./images/traindata.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+   
+    height: 480px;
+    background-position: center;
+    background-color: rgb(119, 105, 105);
+    background-blend-mode: multiply  ;
+    
+}
+.homepagelink{
+    padding-top: 4%;
+    
+}
+.materialimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 3%;
+    box-shadow: 1% wheat;
+    transform: translate(-50%,-50%);
+}
+.Homepage a{
+   
+    color: aliceblue;
+    font-size: x-large;
+
+    font-weight:700;
+   margin-right: 9%;
+   text-align: center;
+   text-decoration: none;
+   
+   
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+   
+}
+.Homepage a:hover{
+    box-shadow: inset 100px 0 0 0 #5db6df;
+  color: rgb(0, 0, 0);
+   
+}
+.partners{
+  
+    display: flex;
+    background-image: url("./images/infologo.jpg" );
+    background-color: rgb(142, 166, 212);
+    -webkit-text-stroke-color: rgb(3, 1, 1);
+    color: rgb(20, 74, 119);
+            font-size: 100px;
+            -webkit-text-stroke-width: 1px;
+            
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+
+    
+    
+
+}
+.partners .introduction{
+    width: 75%;
+}
+.partners img{
+    padding: 5%;
+}
+.Sanjay,.Bhavya{
+    box-sizing: border-box;
+    padding: 2%;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+.introduction{
+    font-family: sans-serif;
+    padding: 2%;
+    font-size: large;
+
+}
+#target{
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    color: aliceblue;
+    background-color: black;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+.aprrovedby {
+   
+    display: flex;
+   
+    height: 100px;
+    padding-left: 25%;
+}
+.aprrovedby img{
+    border: 7px solid r (167, 163, 145);
+  padding: 5px;
+  padding-left: 0%;
+  background-color: rgb(18, 48, 38);
+  border-image: url("./images/border.jpg") 30 stretch;
+}
+.partnerss{
+   
+    display: flex;
+   
+    height: 100px;
+    padding-left: 10%;
+ 
+}
+.partnerss img{
+    border: 7px solid (167, 163, 145);
+  padding: 5px;
+  padding-left: 0%;
+
+  background-color: rgb(18, 48, 38);
+  border-image: url("./images/border.jpg") 30 stretch;
+}
+.alllogo{
+    background-image: url("./images/border.jpg");
+    background-size: cover;
+    padding-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode: multiply  ;
+}
+.contdetls{
+    padding: 3%;
+    background-image: url("./images/bdblogo.jpg");
+    background-size:contain;
+    background-color: rgb(66, 62, 62);
+    background-blend-mode: multiply;
+    color: aliceblue;
+    text-align: center;
+}
+.contdetls i{
+    padding: 1%;
+}
+.system1{
+    
+     font-size: 20px;
+     padding: 2.5%;
+
+     
+     
+    
+    
+}
+
+.quality-systems{
+   
+    display: flex;
+    
+}
+.system2{
+    
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate{
+    0%{
+         transform: translateY(0px);
+
+    }
+    20%{
+        transform: translateX(400px);
+    }
+   
+   100%,60%
+    {
+        transform: translateX(-10px);
+    
+
+}}
+.system1 li{
+    color: blue;
+    font-size: large;
+    
+}
+.testing{
+   display: flex;
+   justify-content: center;
+   
+
+
+
+  
+}
+.testing :hover{
+    background-color: rgb(63, 121, 230);
+    
+    border-radius: 2%;
+    
+    color: aliceblue;
+   
+   
+}
+.Endurance-testing,.Load-Test-Parameters{
+    padding: 1%;
+    height: 510px;
+    width: 100%;
+    margin: 3%;
+    font-size: large;
+    
+    align-items: center;
+  
+    
+   display: block; 
+}
+.Endurance-testing img,.Load-Test-Parameters img{
+    margin-left: 15%;
+    
+    
+}
+.eg{
+    margin-left: 17%;
+    padding: 2%;
+}
+
+
+
+
+

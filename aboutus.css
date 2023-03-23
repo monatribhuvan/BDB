@@ -1,0 +1,59 @@
+.Bansal{
+  padding: 2%;
+    font-weight: 100;
+    font-size: larger;
+    font-family: 'Times New Roman';
+   
+  
+}
+.desma :hover{
+    
+    
+    animation: animate 9s ease-in-out ;
+}
+@keyframes animate{
+    0%{
+         transform: translateY(0px);
+
+    }
+    20%{
+        transform: translateY(300px);
+    }
+   
+   
+    }
+    .table {
+        display: block;
+        padding: 3%;
+    
+        height: 200px;
+       
+        
+        
+    }
+    
+    
+    .table td{
+        background-color: rgb(221, 219, 219);
+        padding-left: 5%;
+        width: 500px;
+        height: 45px;
+       border: 1px solid rgb(110, 99, 99);
+       border-radius: 3%;
+        
+    }
+    .table td:hover{
+       background-color: rgb(52, 171, 226);
+       color: aliceblue;
+      
+    }
+    .btn{
+        height: 50px;
+        color: rgb(206, 228, 248);
+        border-color: rgb(237, 245, 245);
+        background-color: rgb(7, 151, 84);
+    }
+
+
+
+    

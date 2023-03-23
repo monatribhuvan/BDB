@@ -1,0 +1,48 @@
+.submission{
+    height: 600px;
+    background-color: rgb(168, 168, 168);
+    margin-left: 23%;
+}
+
+.submission input {
+    padding: 2%;
+    display: block;
+  
+    width: 500px;
+    margin: 3%;
+    height: 0.5rem;
+    background-color:white;
+}
+
+
+#message{
+ 
+    width: 520px;
+    padding: 1%;
+    height: 100px;
+    margin-top: 3%;
+    margin-right: 15%;
+} 
+#attachment{
+    background-color: rgb(168, 168, 168);
+    margin-left: 0.5%; }
+.submitquery{
+    
+    
+    height: 800px;
+}
+
+#Experience, #Post,#qualification{
+    font-size: medium;
+    height: 10%;
+    width: 33%;
+    margin-left: 3%;
+    background-color: rgb(70, 69, 69);
+    color: aliceblue;
+    border: 1px solid white;
+}
+.submission button{
+    margin-left: 45%;
+   
+}
+
